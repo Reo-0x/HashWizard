@@ -5,7 +5,7 @@
 
 HashWizard is a powerful Python utility designed to identify and analyze various types of cryptographic hashes and encrypted strings. Perfect for security researchers, forensic analysts, and penetration testers working in cybersecurity investigations.
 
-![image](https://github.com/user-attachments/assets/1e7032ef-4630-41cc-9624-f9d155f49cb8)
+![Shot-2025-03-18-052839](https://github.com/user-attachments/assets/c6f9a447-1319-4068-ad4f-3ca814286693)
 
 
 ## Features ✨
@@ -100,9 +100,6 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 - Built with Python's standard library
 - Regex patterns from OWASP documentation
 - Entropy calculation methods from cryptography research
-
----
-
 **Happy Hashing!** 🧙♂️✨
 
 > *Note: This tool provides probabilistic analysis - always verify results through additional means for critical operations.*

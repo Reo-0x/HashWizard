@@ -1,34 +1,49 @@
+HashWizard 🔍🔐
+
+Advanced Hash Type Detection & Analysis Tool
+
+HashWizard is a powerful Python utility designed to identify and analyze various types of cryptographic hashes and encrypted strings. It is perfect for security researchers, forensic analysts, and penetration testers working in cybersecurity investigations.
+
+CLI Example
+Example output showing hash analysis
+Features ✨
+Multi-Category Detection
+
+    Forensic hashes (MD5, SHA family)
+
+    Password hashes (bcrypt, Argon2, PBKDF2)
+
+    Windows authentication hashes
+
+    Database hashes (MySQL, PostgreSQL)
+
+    Network device hashes (Cisco Type 7/8/9)
+
+    File hashes (ssdeep, TLSH)
+
+Advanced Detection Methods
+
+    Pattern matching with regex
+
+    Entropy analysis
+
+    Character distribution statistics
+
+    Custom validation rules
+
+    Length detection
+
+Enhanced Output
+
+    Confidence level indicators
+
+    Documentation links
+
+    Batch file processing
+
+    Verbose mode for technical details
+
 ```markdown
-# HashWizard 🔍🔐
-
-**Advanced Hash Type Detection & Analysis Tool**
-
-HashWizard is a powerful Python utility designed to identify and analyze various types of cryptographic hashes and encrypted strings. Perfect for security researchers, forensic analysts, and penetration testers working in cybersecurity investigations.
-
-
-## Features ✨
-
-- **Multi-Category Detection**
-  - Forensic hashes (MD5, SHA family)
-  - Password hashes (bcrypt, Argon2, PBKDF2)
-  - Windows authentication hashes
-  - Database hashes (MySQL, PostgreSQL)
-  - Network device hashes (Cisco Type 7/8/9)
-  - File hashes (ssdeep, TLSH)
-
-- **Advanced Detection Methods**
-  - Pattern matching with regex
-  - Entropy analysis
-  - Character distribution statistics
-  - Custom validation rules
-  - Length detection
-
-- **Enhanced Output**
-  - Confidence level indicators
-  - Documentation links
-  - Batch file processing
-  - Verbose mode for technical details
-
 ## Installation 🛠️
 
 1. **Requirements**
@@ -41,31 +56,10 @@ HashWizard is a powerful Python utility designed to identify and analyze various
    cd hashwizard
    ```
 
-## Usage 🚀
-
-**Basic Single Hash Analysis**
-```bash
-python HashWizard.py "5f4dcc3b5aa765d61d8327deb882cf99"
-```
-
-**Verbose Mode with Technical Details**
-```bash
-python HashWizard.py -v '$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewdBO.BtXHJMgKlO'
-```
-
-**Batch File Processing**
-```bash
-python HashWizard.py -f hashes.txt
-```
-
-**Sample Output**
-```
-Hash: 5f4dcc3b5aa765d61d8327deb882cf99
-Most Likely Hash Types:
-  1. MD5 (Confidence: Very High)
-     Documentation: https://en.wikipedia.org/wiki/MD5
-  2. CRC32 (Confidence: Low)
-```
+3. **Run the Tool**
+   ```bash
+   python HashWizard.py [options] [hash_string]
+   ```
 
 ## Supported Algorithms 📚
 

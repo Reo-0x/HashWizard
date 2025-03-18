@@ -43,7 +43,7 @@ Enhanced Output
 
     Verbose mode for technical details
 
-```markdown
+
 ## Installation 🛠️
 
 1. **Requirements**
